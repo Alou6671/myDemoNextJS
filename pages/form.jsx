@@ -57,7 +57,7 @@ function Form() {
                         </label>
                         <Input placeholder="Image" name="picture" type="file" border="0" onChange={handleImage}></Input>
                         <VStack width="800px">
-                            <Image alt="uploaded-image" src={image}/>
+                            <Image overflow="hidden" src={image}/>
                         </VStack>
                         <Input placeholder='Your website' name="website" type="url"/>
                         <Input placeholder="My bio" size="lg" name="bio" variant="filled"></Input>
