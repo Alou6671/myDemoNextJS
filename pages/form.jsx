@@ -9,7 +9,6 @@ function Form() {
         const file = e.target.files[0];
         const fileReader = new FileReader();
         fileReader.onload = function(e) {
-            console.log(e.target.result);
             setImage(e.target.result);
         }
         fileReader.readAsDataURL(file);
