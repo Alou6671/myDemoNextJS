@@ -59,7 +59,7 @@ function Form() {
                         <VStack width="800px">
                             <Image alt="uploaded-image" src={image}/>
                         </VStack>
-                        <Input placeholder='Your website*' name="website" type="url"/>
+                        <Input placeholder='Your website' name="website" type="url"/>
                         <Input placeholder="My bio" size="lg" name="bio" variant="filled"></Input>
                         <Button colorScheme='teal' variant='solid' type="submit">
                             Register
